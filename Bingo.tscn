@@ -8,7 +8,7 @@
 [node name="Bingo" type="Node2D"]
 script = ExtResource( 1 )
 color_pallete = [ Color( 0.976471, 0.254902, 0.266667, 1 ), Color( 0.309804, 0.505882, 0.976471, 1 ), Color( 0.65098, 0.976471, 0.254902, 1 ), Color( 0.615686, 0.254902, 0.976471, 1 ), Color( 0.972549, 0.976471, 0.254902, 1 ), Color( 0.254902, 0.976471, 0.909804, 1 ), Color( 0.901961, 0.254902, 0.976471, 1 ), Color( 0.976471, 0.560784, 0.254902, 1 ), Color( 0, 0, 0, 1 ), Color( 0.439216, 0.439216, 0.439216, 1 ) ]
-time_between_extraction = 0.01
+time_between_extraction = 0.4
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 

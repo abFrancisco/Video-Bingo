@@ -24,6 +24,7 @@ var reset_done:bool=false
 
 func _ready():
 	generate_card(true)
+	$CanvasLayer/Control/Panel.rect_size=card.rect_size
 
 func _on_PlayButton_pressed():
 	update_state()

@@ -73,6 +73,28 @@ func mark(n:int)->bool:
 				return true
 	return false
 
+""" WIP
+func check_rows():
+	var rows=0
+	for y in size.y:
+		var counter=0
+		for x in size.x:
+			if cells[y][x].marked:
+				counter+=1
+		rows+=1
+	return rows
+
+func check_lines():
+	var lines=0
+	for x in size.x:
+		var counter=0
+		for y in size.y:
+			if cells[y][x].marked:
+				counter+=1
+		lines+=1
+	return lines
+"""
+
 func reset():
 	for row in cells:
 		for cell in row:
